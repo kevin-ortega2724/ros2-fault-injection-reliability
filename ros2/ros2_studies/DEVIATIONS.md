@@ -53,3 +53,6 @@ del protocolo.
 - `model_checks.py`: forma de la reparación y umbral de detección de 0.5 s, por simulación.
 - `audit_initial_state.py`: datos nuevos, n = 30 por arquitectura, semillas 7000 + índice; comprueba al inicio de cada
   intento si cada componente publica.
+- `fault_anatomy.py`, `fault_frames.py`, `fault_anatomy_plot.py`: datos nuevos, ilustrativos, semillas 9000 + índice. La misma falla de enlace,
+  20 veces en `d_series` (l12) y `d_parallel` (la), reparación fija de 4 s, dos celdas a la vez. Con menos carga que los estudios; no recalibra L.
+- `production_heatmap.py`: tiempo detenido por minuto en E1b, solo con los registros congelados.
