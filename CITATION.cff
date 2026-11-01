@@ -3,6 +3,7 @@ message: "If you use this code or data, please cite it as below."
 title: "Fault-injection tests of reliability models on ROS 2 control architectures: code and raw data"
 type: software
 version: 1.0.0
+doi: 10.5281/zenodo.23857810
 license: MIT
 repository-code: "https://github.com/kevin-ortega2724/ros2-fault-injection-reliability"
 authors:

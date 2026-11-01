@@ -1,5 +1,7 @@
 # Fault-injection tests of reliability models on ROS 2 control architectures
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23857810.svg)](https://doi.org/10.5281/zenodo.23857810)
+
 Code and raw data. Authors: Daniela Buitrago Largo, Kevin David Ortega Quiñones, Germán Andrés Holguín Londoño and
 Mauricio Holguín Londoño, Universidad Tecnológica de Pereira.
 
