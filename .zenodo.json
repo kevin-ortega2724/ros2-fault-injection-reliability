@@ -5,11 +5,34 @@
   "access_right": "open",
   "license": "MIT",
   "creators": [
-    {"name": "Buitrago Largo, Daniela", "affiliation": "Universidad Tecnológica de Pereira"},
-    {"name": "Ortega Quiñones, Kevin David", "affiliation": "Universidad Tecnológica de Pereira"},
-    {"name": "Holguín Londoño, Germán Andrés", "affiliation": "Universidad Tecnológica de Pereira"},
-    {"name": "Holguín Londoño, Mauricio", "affiliation": "Universidad Tecnológica de Pereira"}
+    {
+      "name": "Buitrago Largo, Daniela",
+      "affiliation": "Universidad Tecnológica de Pereira",
+      "orcid": "0009-0006-9822-6404"
+    },
+    {
+      "name": "Ortega Quiñones, Kevin David",
+      "affiliation": "Universidad Tecnológica de Pereira",
+      "orcid": "0009-0004-6187-0517"
+    },
+    {
+      "name": "Holguín Londoño, Germán Andrés",
+      "affiliation": "Universidad Tecnológica de Pereira",
+      "orcid": "0000-0001-7760-5874"
+    },
+    {
+      "name": "Holguín Londoño, Mauricio",
+      "affiliation": "Universidad Tecnológica de Pereira",
+      "orcid": "0000-0001-6284-3327"
+    }
   ],
-  "keywords": ["ROS 2", "fault injection", "reliability", "Markov chains", "redundancy", "industrial automation"],
+  "keywords": [
+    "ROS 2",
+    "fault injection",
+    "reliability",
+    "Markov chains",
+    "redundancy",
+    "industrial automation"
+  ],
   "notes": "Carried out within project 6-25-4, Universidad Tecnológica de Pereira. No external funding."
 }
