@@ -112,3 +112,27 @@ t.to_csv(OUT / 'E1b_sensitivity.csv', index=False)
 pd.set_option('display.width', 250, 'display.max_columns', None)
 print(t.round(2).T.to_string())
 print('R0 unico', R0.round(3).unique())
+
+# Límites de cada ejecución y dos variantes del conteo de ventanas
+runs, alt = [], []
+for c in ORDER:
+    sets = {'protocol_code': [], 'literal_60s': [], 'max_7_per_run': []}
+    for r in (1, 2, 3):
+        for f in sorted(glob.glob(str(RES / f'cell_{r}_{c}_a*.log'))):
+            boxes, up, last, inc = parse(f)
+            first = [t for t, s in up if s][0]
+            start = first + WARMUP
+            end = last - 60 if inc else last
+            runs.append({'config': c, 'rep': r, 'file': Path(f).name, 'first_run_event': first, 'last_event': last, 'incident': inc,
+                         'windows': int(max(end - start, 0) // WINDOW), 'margin_to_8th': end - (start + 8 * WINDOW)})
+            for name, stop, cap in (('protocol_code', end, 99), ('literal_60s', last, 99), ('max_7_per_run', end, 7)):
+                k = 0
+                while k < cap and start + (k + 1) * WINDOW <= stop:
+                    a = start + k * WINDOW
+                    sets[name].append(((boxes >= a) & (boxes < a + WINDOW)).sum() * 3600 / WINDOW)
+                    k += 1
+    alt.append({'config': c, **{f'{k}_n': len(v) for k, v in sets.items()}, **{f'{k}_rate': np.mean(v) for k, v in sets.items()}})
+pd.DataFrame(runs).to_csv(OUT / 'E1b_run_boundaries.csv', index=False)
+alt = pd.DataFrame(alt)
+alt.to_csv(OUT / 'E1b_window_variants.csv', index=False)
+print(alt.round(2).to_string())

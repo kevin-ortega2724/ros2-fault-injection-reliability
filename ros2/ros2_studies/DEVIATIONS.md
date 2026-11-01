@@ -26,6 +26,25 @@ Los incidentes se tratan como dice el protocolo.
 **Incidentes.** Hubo 8 en E1b: 3 en `d_parallel`, 2 en `r2oo3` y 3 en `cen`, cada uno precedido por un `PARO`
 sin recuperación durante 60 s. No se estableció la causa. Los estudios de señal no abandonaron ningún dominio.
 
+## D3. Duración de las réplicas de E1b
+
+El protocolo dice réplicas de 40 min y descartar los primeros 60 s. `run_cell.py` programa 41 min (40 min más 60 s).
+Una corrida puede contener ocho ventanas nominales. Las ventanas van desde la primera `MARCHA` hasta el último evento
+del registro; en casi todas las corridas completas sin incidente ese evento cae 2.1-6.2 s antes del final de la octava,
+y quedan siete. En la réplica 1 de `d_triangle` cae 1.4 s después, y por eso tiene 22 ventanas sin incidentes. Limitar
+cada corrida a siete ventanas cambia las tasas medias como máximo 0.9 cajas/h (`posthoc/results/E1b_window_variants.csv`).
+
+## D4. Exclusión previa a un incidente
+
+El protocolo descarta la ventana que contiene los 60 s previos al incidente. `analyze.py` descarta desde 60 s antes del
+último evento registrado, unos 117 s antes de declarar el incidente. Se informa lo que hace el código congelado. Con la
+redacción del protocolo, `d_parallel` gana una ventana (261.4 en vez de 262.9 cajas/h) y las demás no cambian.
+
+## D5. Tiempo abonado tras un incidente
+
+El protocolo no lo especifica. `run_cell.py` resta el tiempo ya transcurrido y abona una ventana más el calentamiento,
+lo que alarga las corridas de las arquitecturas con incidentes.
+
 ## Análisis posteriores al congelamiento
 
 Son exploratorios, se añadieron después de los estudios y están en `posthoc/`; no modifican los resultados
@@ -34,8 +53,3 @@ del protocolo.
 - `model_checks.py`: forma de la reparación y umbral de detección de 0.5 s, por simulación.
 - `audit_initial_state.py`: datos nuevos, n = 30 por arquitectura, semillas 7000 + índice; comprueba al inicio de cada
   intento si cada componente publica.
-
-**Diferencia entre código y protocolo.** Con incidente, `analyze.py` descarta desde 60 s antes del último evento
-registrado, unos 117 s antes de declarar el incidente; el protocolo habla de los 60 s previos. Es algo más estricto.
-Tras un incidente, `run_cell.py` abona una ventana más el calentamiento al tiempo pendiente; el protocolo no lo
-detalla, y por eso hay arquitecturas con más de 21 ventanas.
