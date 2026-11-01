@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+ros2/ros2_cell/build/
+ros2/ros2_pilot/results/figures/
+papers/

@@ -1,0 +1,181 @@
+2.583 PARO
+2.599 MARCHA
+3.285 barrera caja2 vistas=1
+5.618 barrera caja1 vistas=2
+7.099 recoge caja2
+9.280 barrera caja0 vistas=3
+12.699 deja caja2 producidas=1
+18.299 recoge caja1
+23.899 deja caja1 producidas=2
+29.532 recoge caja0
+30.141 barrera caja2 vistas=4
+32.572 barrera caja1 vistas=5
+35.099 deja caja0 producidas=3
+40.699 recoge caja2
+46.266 deja caja2 producidas=4
+51.866 recoge caja1
+52.421 barrera caja0 vistas=6
+54.857 barrera caja2 vistas=7
+57.466 deja caja1 producidas=5
+63.066 recoge caja0
+68.666 deja caja0 producidas=6
+74.266 recoge caja2
+74.857 barrera caja1 vistas=8
+77.240 barrera caja0 vistas=9
+79.866 deja caja2 producidas=7
+85.466 recoge caja1
+91.032 deja caja1 producidas=8
+96.632 recoge caja0
+97.186 barrera caja2 vistas=10
+99.616 barrera caja1 vistas=11
+102.199 deja caja0 producidas=9
+107.799 recoge caja2
+113.366 deja caja2 producidas=10
+118.966 recoge caja1
+119.541 barrera caja0 vistas=12
+121.947 barrera caja2 vistas=13
+124.533 deja caja1 producidas=11
+130.132 recoge caja0
+135.699 deja caja0 producidas=12
+141.299 recoge caja2
+141.874 barrera caja1 vistas=14
+144.282 barrera caja0 vistas=15
+146.866 deja caja2 producidas=13
+152.466 recoge caja1
+158.033 deja caja1 producidas=14
+163.632 recoge caja0
+164.256 barrera caja2 vistas=16
+166.636 barrera caja1 vistas=17
+169.199 deja caja0 producidas=15
+174.799 recoge caja2
+180.366 deja caja2 producidas=16
+185.966 recoge caja1
+186.535 barrera caja0 vistas=18
+188.972 barrera caja2 vistas=19
+191.532 deja caja1 producidas=17
+197.166 recoge caja0
+202.766 deja caja0 producidas=18
+208.399 recoge caja2
+208.993 barrera caja1 vistas=20
+211.377 barrera caja0 vistas=21
+213.966 deja caja2 producidas=19
+219.566 recoge caja1
+225.132 deja caja1 producidas=20
+230.732 recoge caja0
+231.326 barrera caja2 vistas=22
+233.708 barrera caja1 vistas=23
+236.299 deja caja0 producidas=21
+241.932 recoge caja2
+247.499 deja caja2 producidas=22
+253.099 recoge caja1
+253.682 barrera caja0 vistas=24
+256.088 barrera caja2 vistas=25
+258.666 deja caja1 producidas=23
+264.266 recoge caja0
+269.866 deja caja0 producidas=24
+275.499 recoge caja2
+276.070 barrera caja1 vistas=26
+278.525 barrera caja0 vistas=27
+281.066 deja caja2 producidas=25
+286.666 recoge caja1
+292.232 deja caja1 producidas=26
+297.832 recoge caja0
+298.377 barrera caja2 vistas=28
+300.858 barrera caja1 vistas=29
+303.433 deja caja0 producidas=27
+309.032 recoge caja2
+314.599 deja caja2 producidas=28
+320.199 recoge caja1
+320.756 barrera caja0 vistas=30
+323.187 barrera caja2 vistas=31
+325.766 deja caja1 producidas=29
+331.366 recoge caja0
+336.966 deja caja0 producidas=30
+342.565 recoge caja2
+343.115 barrera caja1 vistas=32
+345.571 barrera caja0 vistas=33
+348.132 deja caja2 producidas=31
+353.732 recoge caja1
+359.299 deja caja1 producidas=32
+364.899 recoge caja0
+365.448 barrera caja2 vistas=34
+367.884 barrera caja1 vistas=35
+370.466 deja caja0 producidas=33
+376.066 recoge caja2
+381.633 deja caja2 producidas=34
+387.232 recoge caja1
+387.748 barrera caja0 vistas=36
+390.209 barrera caja2 vistas=37
+392.799 deja caja1 producidas=35
+398.399 recoge caja0
+403.999 deja caja0 producidas=36
+409.599 recoge caja2
+410.158 barrera caja1 vistas=38
+412.611 barrera caja0 vistas=39
+415.166 deja caja2 producidas=37
+420.766 recoge caja1
+426.366 deja caja1 producidas=38
+431.966 recoge caja0
+432.516 barrera caja2 vistas=40
+434.953 barrera caja1 vistas=41
+437.566 deja caja0 producidas=39
+443.199 recoge caja2
+448.799 deja caja2 producidas=40
+454.432 recoge caja1
+454.977 barrera caja0 vistas=42
+457.435 barrera caja2 vistas=43
+459.999 deja caja1 producidas=41
+465.599 recoge caja0
+471.166 deja caja0 producidas=42
+476.766 recoge caja2
+477.310 barrera caja1 vistas=44
+479.774 barrera caja0 vistas=45
+482.366 deja caja2 producidas=43
+487.966 recoge caja1
+493.532 deja caja1 producidas=44
+499.132 recoge caja0
+499.671 barrera caja2 vistas=46
+502.105 barrera caja1 vistas=47
+504.699 deja caja0 producidas=45
+510.332 recoge caja2
+515.899 deja caja2 producidas=46
+521.499 recoge caja1
+522.003 barrera caja0 vistas=48
+524.489 barrera caja2 vistas=49
+527.066 deja caja1 producidas=47
+532.666 recoge caja0
+538.233 deja caja0 producidas=48
+543.832 recoge caja2
+544.388 barrera caja1 vistas=50
+546.825 barrera caja0 vistas=51
+549.399 deja caja2 producidas=49
+555.032 recoge caja1
+560.599 deja caja1 producidas=50
+566.199 recoge caja0
+566.779 barrera caja2 vistas=52
+569.211 barrera caja1 vistas=53
+571.766 deja caja0 producidas=51
+577.399 recoge caja2
+582.999 deja caja2 producidas=52
+588.599 recoge caja1
+589.134 barrera caja0 vistas=54
+591.592 barrera caja2 vistas=55
+594.166 deja caja1 producidas=53
+599.766 recoge caja0
+605.332 deja caja0 producidas=54
+610.932 recoge caja2
+611.491 barrera caja1 vistas=56
+613.922 barrera caja0 vistas=57
+616.499 deja caja2 producidas=55
+622.099 recoge caja1
+627.666 deja caja1 producidas=56
+633.266 recoge caja0
+633.822 barrera caja2 vistas=58
+636.235 barrera caja1 vistas=59
+638.866 deja caja0 producidas=57
+644.466 recoge caja2
+650.066 deja caja2 producidas=58
+655.666 recoge caja1
+656.207 barrera caja0 vistas=60
+658.688 barrera caja2 vistas=61
+661.232 deja caja1 producidas=59

@@ -1,0 +1,15 @@
+{
+  "title": "Fault-injection tests of reliability models on ROS 2 control architectures: code and raw data",
+  "description": "Code, frozen protocols, SHA-256 hashes, raw data and post-hoc analyses for a study that injects process-kill faults into six ROS 2 control architectures and compares observed time to loss of function and simulated cell production with exact Markov chain predictions. Faults are emulated software crashes at accelerated rates; the work cell is simulated, without contact physics or a PLC. Code is under the MIT license and data under CC BY 4.0.",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "creators": [
+    {"name": "Buitrago Largo, Daniela", "affiliation": "Universidad Tecnológica de Pereira"},
+    {"name": "Ortega Quiñones, Kevin David", "affiliation": "Universidad Tecnológica de Pereira"},
+    {"name": "Holguín Londoño, Germán Andrés", "affiliation": "Universidad Tecnológica de Pereira"},
+    {"name": "Holguín Londoño, Mauricio", "affiliation": "Universidad Tecnológica de Pereira"}
+  ],
+  "keywords": ["ROS 2", "fault injection", "reliability", "Markov chains", "redundancy", "industrial automation"],
+  "notes": "Carried out within project 6-25-4, Universidad Tecnológica de Pereira. No external funding."
+}

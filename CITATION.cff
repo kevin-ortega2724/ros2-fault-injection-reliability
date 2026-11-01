@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "Fault-injection tests of reliability models on ROS 2 control architectures: code and raw data"
+type: software
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/kevin-ortega2724/ros2-fault-injection-reliability"
+authors:
+  - family-names: "Buitrago Largo"
+    given-names: "Daniela"
+    affiliation: "Universidad Tecnológica de Pereira"
+  - family-names: "Ortega Quiñones"
+    given-names: "Kevin David"
+    affiliation: "Universidad Tecnológica de Pereira"
+  - family-names: "Holguín Londoño"
+    given-names: "Germán Andrés"
+    affiliation: "Universidad Tecnológica de Pereira"
+  - family-names: "Holguín Londoño"
+    given-names: "Mauricio"
+    affiliation: "Universidad Tecnológica de Pereira"
+keywords:
+  - ROS 2
+  - fault injection
+  - reliability
+  - Markov chains

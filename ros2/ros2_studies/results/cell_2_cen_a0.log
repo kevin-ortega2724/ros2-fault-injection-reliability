@@ -1,0 +1,48 @@
+0.064 MARCHA
+0.983 barrera caja2 vistas=1
+3.045 barrera caja1 vistas=2
+4.529 recoge caja2
+6.735 barrera caja0 vistas=3
+10.096 deja caja2 producidas=1
+15.729 recoge caja1
+21.363 deja caja1 producidas=2
+22.896 PARO
+26.730 MARCHA
+31.029 recoge caja0
+31.574 barrera caja2 vistas=4
+34.021 barrera caja1 vistas=5
+36.596 deja caja0 producidas=3
+42.196 recoge caja2
+47.796 deja caja2 producidas=4
+53.430 recoge caja1
+54.017 barrera caja0 vistas=6
+56.452 barrera caja2 vistas=7
+59.030 deja caja1 producidas=5
+64.663 recoge caja0
+70.230 deja caja0 producidas=6
+75.863 recoge caja2
+76.407 barrera caja1 vistas=8
+78.847 barrera caja0 vistas=9
+81.496 deja caja2 producidas=7
+87.129 recoge caja1
+92.730 deja caja1 producidas=8
+98.363 recoge caja0
+98.867 barrera caja2 vistas=10
+101.375 barrera caja1 vistas=11
+103.963 deja caja0 producidas=9
+109.596 recoge caja2
+114.197 PARO
+120.496 MARCHA
+121.731 deja caja2 producidas=10
+127.363 recoge caja1
+127.869 barrera caja0 vistas=12
+130.387 barrera caja2 vistas=13
+132.997 deja caja1 producidas=11
+138.629 recoge caja0
+144.196 deja caja0 producidas=12
+149.829 recoge caja2
+150.351 barrera caja1 vistas=14
+152.821 barrera caja0 vistas=15
+155.430 deja caja2 producidas=13
+158.797 PARO
+INCIDENTE 216.8
